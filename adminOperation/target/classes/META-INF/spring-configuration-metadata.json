@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "jwt.config",
+      "type": "com.eleandy.admin.login.vo.JwtUtils",
+      "sourceType": "com.eleandy.admin.login.vo.JwtUtils"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.config.failure-time",
+      "type": "java.lang.Long",
+      "sourceType": "com.eleandy.admin.login.vo.JwtUtils",
+      "defaultValue": 3600
+    },
+    {
+      "name": "jwt.config.key",
+      "type": "java.lang.String",
+      "sourceType": "com.eleandy.admin.login.vo.JwtUtils",
+      "defaultValue": "userlogin"
+    }
+  ],
+  "hints": []
+}
