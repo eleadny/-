@@ -6,7 +6,7 @@ import com.eleandy.customer.info.Mapper.wangge.QuestionsMapper;
 import com.eleandy.customer.info.Pojo.QuestionsPojo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
+//问题提交处理业务
 @Service
 public class QuestionsServiceImpl implements QuestionsService {
     @Autowired
