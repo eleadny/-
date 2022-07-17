@@ -21,6 +21,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+//日志详细记录
 @Aspect
 @Component
 public class OperLogAspect {
