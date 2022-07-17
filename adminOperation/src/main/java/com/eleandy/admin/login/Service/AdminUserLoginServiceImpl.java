@@ -58,6 +58,7 @@ public class AdminUserLoginServiceImpl implements AdminUserLoginService {
         return token;
     }
 
+//    管理员登出业务处理
     @Override
     public void adminUserLoginOut(AdminUserInfoPojo adminUserInfoPojo, String ipAddr) {
         QueryWrapper<AdminUserInfoPojo> exit = new QueryWrapper<>();
